@@ -23,8 +23,25 @@
         1,
         null,
         null
+      ],
+      "/Users/student/Projects/Week4/daily-diary-project/spec/unit/diary_entry_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Projects/Week4/daily-diary-project/lib/diary_entry.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1553686099
+    "timestamp": 1553688428
   }
 }
