@@ -1,3 +1,27 @@
+# Why this project?
+
+I have some experience of databases from prior to the Makers course. I feel like I can interact with a database using SQL and I understand how databases work. I would like a challenge that will check my understanding but also make me practice my modelling of a database. So I am giving this a go!
+
+## To set up the project
+
+- `git clone`
+- `bundle install`
+- `run database scripts`
+
+## To run the project
+
+- `rackup -p 4567`
+- `http://localhost:4567/diary`
+
+## To run the tests
+
+- navigate to the root directory for the project
+- run `rspec` to run the unit and feature tests
+
+## My approach and design
+
+
+
 # Daily Diary Application
 
 Mini project exploring how databases work.
