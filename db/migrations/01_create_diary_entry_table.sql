@@ -1,0 +1,1 @@
+CREATE TABLE diary_entries(id SERIAL PRIMARY KEY, title VARCHAR(200), entry VARCHAR(1000), date DATE default CURRENT_DATE);

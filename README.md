@@ -7,6 +7,8 @@ I have some experience of databases from prior to the Makers course. I feel like
 - `git clone`
 - `bundle install`
 - `run database scripts`
+- `CREATE DATABASE DIARY_MANAGER;`
+- run `01_create_diary_entry_table.sql` to create the diary_entries table
 
 ## To run the project
 

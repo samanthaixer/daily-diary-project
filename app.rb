@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require './lib/diary_entry'
 
 class DailyDiary < Sinatra::Base
   enable :sessions
@@ -12,7 +13,8 @@ class DailyDiary < Sinatra::Base
   end
 
   post '/diary/display' do
-    @entry = {title: params[:title], entry: params[:entry]}
+    @diary_entry = DiaryEntry.new(params[:title], params[:entry])
+    @diary_entry = @diary_entry.display
     erb :display
   end
 end
