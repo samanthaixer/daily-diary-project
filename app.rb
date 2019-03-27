@@ -7,7 +7,12 @@ class DailyDiary < Sinatra::Base
     erb :index
   end
 
-  post '/add' do
+  post '/diary/add' do
     erb :add
+  end
+
+  post '/diary/display' do
+    @entry = {title: params[:title], entry: params[:entry]}
+    erb :display
   end
 end
