@@ -22,6 +22,16 @@ I have some experience of databases from prior to the Makers course. I feel like
 
 ## My approach and design
 
+### What I have done so far
+- Modelled the domain before building - identified the CRCs, the database design and the associations
+- Created a basic app that will communicate to the DB both to insert and display
+
+## To do next
+- Create a test database for RSpec and tear it down before each test
+- Make a proper display - currently only titles - understand what the connection actually returns
+- Allow for special characters in the input - currently "Here's my code" breaks the SQL
+- Check re vulnerabilites. Because the user can currently insert straight into the SQL, this could allow someone to hack the database?
+- Build further tables and try more complex queries in display (i.e. build out the other user stories)
 
 
 # Daily Diary Application
